@@ -31,6 +31,9 @@
           <!-- この下にtextareaタグを書いていきましょう -->
           <textarea name="body"></textarea>
           
+          <!-- この下に送信ボタンを作りましょう -->
+          <input tyoe="submit" value="送信">
+          
         </form>
         
       </div>

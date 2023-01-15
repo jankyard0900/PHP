@@ -82,7 +82,6 @@ input[type="submit"] {
   background-color: #5cb85c;
 }
 
-
 textarea {
   width: 90%;
   height: 100px;
@@ -94,6 +93,20 @@ textarea {
   font-size: 14px;
   line-height: 1.428571429;
   color: #555;
+}
+
+.thanks-message {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.display-contact {
+  width: 70%;
+  margin: 30px auto;
+  padding: 50px;
+  background-color: #F5F5F5;
+  color: #333;
 }
 
 .footer {
