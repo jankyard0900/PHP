@@ -27,6 +27,14 @@
           <!-- この下にinputタグを書いていきましょう -->
           <input type="text" name="name">
           
+          <div class="form-item">年齢</div>
+          <!-- この下にselectタグを書いていきましょう -->
+          <select name="age">
+            <option value="未選択">選択してください</option>
+            <option value="20代">20代</option>
+            <option value="30代">30</option>
+          </select>
+          
           <div class="form-item">内容</div>
           <!-- この下にtextareaタグを書いていきましょう -->
           <textarea name="body"></textarea>
