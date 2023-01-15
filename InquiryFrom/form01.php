@@ -31,8 +31,12 @@
           <!-- この下にselectタグを書いていきましょう -->
           <select name="age">
             <option value="未選択">選択してください</option>
-            <option value="20代">20代</option>
-            <option value="30代">30</option>
+            <?php 
+            
+              for($i = 6; $i < 101; $i++) {
+                echo "<option value='{$i}'>{$i}</option>";
+              }
+            ?>
           </select>
           
           <div class="form-item">内容</div>
