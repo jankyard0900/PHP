@@ -22,7 +22,16 @@
         <div class="form-title">お問い合わせ</div>
         <!-- この下にformタグを書いていきましょう -->
         <!-- action属性にはデータを渡す先のURLを,method属性は値の送信の方法で今回は「post」を指定 -->
-        <form action="sent.php" method="post"></form>
+        <form action="sent.php" method="post">
+          <div class="form-item">名前</div>
+          <!-- この下にinputタグを書いていきましょう -->
+          <input type="text" name="name">
+          
+          <div class="form-item">内容</div>
+          <!-- この下にtextareaタグを書いていきましょう -->
+          <textarea name="body"></textarea>
+          
+        </form>
         
       </div>
     </div>
