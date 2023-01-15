@@ -27,6 +27,10 @@
         <!-- nameを受け取りechoしましょう -->
         <?php echo $_POST['name'] ?>
         
+        <div class="form-item">■ 年齢</div>
+        <!-- ageを受け取りechoしましょう -->
+        <?php echo $_POST['age'] 
+        
         <div class="form-item">■ 内容</div>
         <!-- bodyを受け取りechoしましょう -->
         <?php echo $_POST['body'] ?>
