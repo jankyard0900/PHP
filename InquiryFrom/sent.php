@@ -16,29 +16,33 @@
         </ul>
       </div>
     </div>
-  
+
     <div class="main">
       <div class="thanks-message">お問い合わせいただきありがとうございます。</div>
       <div class="display-contact">
-  
+
         <div class="form-title">入力内容</div>
-  
+
         <div class="form-item">■ 名前</div>
         <!-- nameを受け取りechoしましょう -->
-        <?php echo $_POST['name'] ?>
-        
+        <?php echo $_POST['name']; ?>
+
         <div class="form-item">■ 年齢</div>
         <!-- ageを受け取りechoしましょう -->
-        <?php echo $_POST['age'] 
+        <?php echo $_POST['age']; ?>
         
+        <div class="form-item">■ お問い合わせの種類</div>
+        <!-- categoryを受け取りechoしましょう-->
+        <?php echo $_POST['category']; ?>
+
         <div class="form-item">■ 内容</div>
         <!-- bodyを受け取りechoしましょう -->
-        <?php echo $_POST['body'] ?>
-        
+        <?php echo $_POST['body']; ?>
+
       </div>
-  
+
     </div>
-  
+
     <div class="footer">
       <div class="footer-left">
         <ul>
