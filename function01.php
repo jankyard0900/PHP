@@ -13,6 +13,10 @@
   
       // strlenを用いて$strの長さをechoしてください
       echo strlen($str);
+      /*
+      実行結果
+      7
+      */
       
       echo '<br>';
       
@@ -20,11 +24,20 @@
   
       // countを用いて$arrayの要素数をechoしてください
       echo count($array);
+      /*
+      実行結果
+      3
+      */
+
       
       echo '<br>';
       
       // randを用いて10から15までのランダムな数字をechoしてください
       echo rand(10, 15);
+      /*
+      実行結果
+      12 (※その時次第で変わる)
+      */ 
       
     ?>
   
