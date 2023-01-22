@@ -7,6 +7,8 @@ class Menu {
   private $price;
   // $imageというプロパティを定義してください
   private $image;
+  // $orderCountというプロパティを定義してください
+  private $orderCount = 0;
   
   // コンストラクタの引数に$price, $imageを追加してください
   public function __construct($name, $price, $image) {
@@ -25,6 +27,16 @@ class Menu {
   // getImageメソッドを定義してください
   public function getImage() {
     return $this->image;
+  }
+  
+  // getOrderCountメソッドを定義してください
+  public function getOrderCount() {
+    return $this->orderCount;
+  }
+
+  // setOrderCountメソッドを定義してください
+  public function setOrderCount($orderCount) {
+    $this->orderCount = $orderCount;
   }
 
   public function getTaxIncludedPrice() {

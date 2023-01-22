@@ -23,6 +23,8 @@ require_once('data.php');
           <h3 class="menu-item-name"><?php echo $menu->getName(); ?></h3>
           <!-- <p>タグの中に、$menuのpriceプロパティを表示してください -->
           <p class="price">¥<?php echo $menu->getTaxIncludedPrice(); ?></p>
+          <!-- $menuのゲッターを用いてorderCountプロパティを表示してください -->
+          <p>注文数: <?php echo $menu->getOrderCount(); ?></p>
         </div>
       <?php endforeach ?>
     </div>
