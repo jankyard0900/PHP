@@ -1,11 +1,12 @@
 <?php
 // ForeachToHtmlのクラスの定義部分をここに移動した
 class Menu {
-  public $name;
+  // name, price, imageプロパティのアクセス権をprivateにしてください
+  private $name;
   // $priceというプロパティを定義してください
-  public $price;
+  private $price;
   // $imageというプロパティを定義してください
-  public $image;
+  private $image;
   
   // コンストラクタの引数に$price, $imageを追加してください
   public function __construct($name, $price, $image) {
@@ -16,8 +17,19 @@ class Menu {
     $this->image = $image;
   }
   
-  public function hello() {
-    echo '私は'.$this->name.'です';
+  // getNameメソッドを定義してください
+  public function getName() {
+    return $this->name;
   }
+
+  // getImageメソッドを定義してください
+  public function getImage() {
+    return $this->image;
+  }
+
+  public function getTaxIncludedPrice() {
+    return floor($this->price * 1.08);
+  }
+
 }
 ?>
